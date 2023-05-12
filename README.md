@@ -11,3 +11,4 @@ The above tree structure is for a 16 bit Brent Kung Adder, where each block repr
 5. s<sub>n</sub> or the nth bit of sum output is given as P<sub>n</sub><sup>0</sup> * c<sub>n</sub> and the final output carry would be last carry i.e. c<sub>16</sub> (for 16 bit Brent Kung Adder)    
 ## Simulation Results
 ### RTL View
+#### Level 1 
