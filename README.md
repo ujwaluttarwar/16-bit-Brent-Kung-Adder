@@ -1,2 +1,3 @@
 # 16-bit-Brent-Kung-Adder
-## Basics
+## Basics - About Brent Kung Adder
+
