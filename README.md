@@ -24,5 +24,6 @@ The above tree structure is for a 16 bit Brent Kung Adder, where each block repr
 #### Complete RTL View
 ![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/54047dc3-251d-4df4-982c-1a1163a003d5)
 ### Output To Test Inputs
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/c3eeacaa-56ae-43bc-8580-8370cc7b5253)
+![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/7b0176c1-dfdb-4df9-aec3-75864de198c0)
+
 
