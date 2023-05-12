@@ -1,1 +1,1 @@
-# 32-bit-Brent-Kung-Adder
+# 16-bit-Brent-Kung-Adder
