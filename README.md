@@ -9,3 +9,5 @@ The above tree structure is for a 16 bit Brent Kung Adder, where each block repr
 3. The above G<sub>0</sub><sup>0</sup> make sures that C<sub>1</sub> = G<sub>0</sub><sup>0</sup> and all the other carry-out having index as power of 2 given as c<sub>m</sub> = G<sub>(m-1:0)</sub><sup>log<sub>2</sub>m</sup>
 4. Carries at a distance of 1 index from known carries can be calculated using 0th row G and P. Similarly carries at a distance of 2 index can be calculated using 1st row G and P and so on using the equation C<sub>unknown</sub> = G + P * C<sub>known</sub>. This would allow us to calculate all the internal carries.
 5. s<sub>n</sub> or the nth bit of sum output is given as P<sub>n</sub><sup>0</sup> * c<sub>n</sub> and the final output carry would be last carry i.e. c<sub>16</sub> (for 16 bit Brent Kung Adder)    
+## Simulation Results
+### RTL View
