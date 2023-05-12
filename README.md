@@ -9,21 +9,3 @@ The above tree structure is for a 16 bit Brent Kung Adder, where each block repr
 3. The above G<sub>0</sub><sup>0</sup> make sures that C<sub>1</sub> = G<sub>0</sub><sup>0</sup> and all the other carry-out having index as power of 2 given as c<sub>m</sub> = G<sub>(m-1:0)</sub><sup>log<sub>2</sub>m</sup>
 4. Carries at a distance of 1 index from known carries can be calculated using 0th row G and P. Similarly carries at a distance of 2 index can be calculated using 1st row G and P and so on using the equation C<sub>unknown</sub> = G + P * C<sub>known</sub>. This would allow us to calculate all the internal carries.
 5. s<sub>n</sub> or the nth bit of sum output is given as P<sub>n</sub><sup>0</sup> * c<sub>n</sub> and the final output carry would be last carry i.e. c<sub>16</sub> (for 16 bit Brent Kung Adder)    
-## Simulation Results
-### RTL View
-#### Level 1 
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/7ba24154-4914-4014-bda6-3c0fb13b0a1a)
-#### Level 2
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/521de74f-cac5-4a8e-b44c-6fc71c2557ec)
-#### Level 3
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/9eefa78a-3df8-41ba-b605-9f43b019b84f)
-#### Level 4
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/9c5c28a5-18c4-4e93-ace3-9e37ea5ed27a)
-#### Level 5
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/4edb48f6-02cb-4220-8dc3-0fdf681e8770)
-#### Complete RTL View
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/54047dc3-251d-4df4-982c-1a1163a003d5)
-### Output To Test Inputs
-![image](https://github.com/ujwaluttarwar/16-bit-Brent-Kung-Adder/assets/106365754/7b0176c1-dfdb-4df9-aec3-75864de198c0)
-
-
